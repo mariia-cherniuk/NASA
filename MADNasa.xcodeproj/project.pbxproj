@@ -8,8 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		4B1E6AB8794BA270177EADE9 /* Pods_MADNasa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAA9D80DEF1FB84BA2A491C /* Pods_MADNasa.framework */; };
+		7406C26D23228A6200B31D7E /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406C26C23228A6200B31D7E /* RequestBuilder.swift */; };
+		7406C26F232290B800B31D7E /* ItemsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406C26E232290B800B31D7E /* ItemsListModel.swift */; };
+		7406C2712322926E00B31D7E /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406C2702322926E00B31D7E /* AppRouter.swift */; };
+		7406C2732322942600B31D7E /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406C2722322942600B31D7E /* NibLoadable.swift */; };
+		7406C27523229EDB00B31D7E /* ItemsListTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406C27423229EDB00B31D7E /* ItemsListTransformer.swift */; };
+		7406C27723229FB800B31D7E /* AstronomyPictureOfTheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406C27623229FB800B31D7E /* AstronomyPictureOfTheDay.swift */; };
+		742DDCEE232289750065C060 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742DDCED232289750065C060 /* DataFetcher.swift */; };
+		742DDCF02322A3AA0065C060 /* ListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742DDCEF2322A3AA0065C060 /* ListRepository.swift */; };
 		74713FF623228601004B12DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74713FF523228601004B12DB /* AppDelegate.swift */; };
-		74713FF823228601004B12DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74713FF723228601004B12DB /* ViewController.swift */; };
+		74713FF823228601004B12DB /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74713FF723228601004B12DB /* ListViewController.swift */; };
 		74713FFB23228601004B12DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74713FF923228601004B12DB /* Main.storyboard */; };
 		74713FFD23228603004B12DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74713FFC23228603004B12DB /* Assets.xcassets */; };
 		7471400023228603004B12DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74713FFE23228603004B12DB /* LaunchScreen.storyboard */; };
@@ -41,9 +49,17 @@
 		51AABAD33699055F6CC68D01 /* Pods-MADNasaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MADNasaUITests.release.xcconfig"; path = "Target Support Files/Pods-MADNasaUITests/Pods-MADNasaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5BAA9D80DEF1FB84BA2A491C /* Pods_MADNasa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MADNasa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69BD98D63B2679466E8FA514 /* Pods-MADNasa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MADNasa.release.xcconfig"; path = "Target Support Files/Pods-MADNasa/Pods-MADNasa.release.xcconfig"; sourceTree = "<group>"; };
+		7406C26C23228A6200B31D7E /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		7406C26E232290B800B31D7E /* ItemsListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListModel.swift; sourceTree = "<group>"; };
+		7406C2702322926E00B31D7E /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		7406C2722322942600B31D7E /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		7406C27423229EDB00B31D7E /* ItemsListTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListTransformer.swift; sourceTree = "<group>"; };
+		7406C27623229FB800B31D7E /* AstronomyPictureOfTheDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyPictureOfTheDay.swift; sourceTree = "<group>"; };
+		742DDCED232289750065C060 /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		742DDCEF2322A3AA0065C060 /* ListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRepository.swift; sourceTree = "<group>"; };
 		74713FF223228601004B12DB /* MADNasa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MADNasa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74713FF523228601004B12DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74713FF723228601004B12DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74713FF723228601004B12DB /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		74713FFA23228601004B12DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74713FFC23228603004B12DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74713FFF23228603004B12DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -99,7 +115,6 @@
 				A0560EEAFE216A78EBD60413 /* Pods-MADNasaUITests.debug.xcconfig */,
 				51AABAD33699055F6CC68D01 /* Pods-MADNasaUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -129,7 +144,15 @@
 			isa = PBXGroup;
 			children = (
 				74713FF523228601004B12DB /* AppDelegate.swift */,
-				74713FF723228601004B12DB /* ViewController.swift */,
+				7406C2702322926E00B31D7E /* AppRouter.swift */,
+				742DDCED232289750065C060 /* DataFetcher.swift */,
+				7406C26C23228A6200B31D7E /* RequestBuilder.swift */,
+				74713FF723228601004B12DB /* ListViewController.swift */,
+				7406C27623229FB800B31D7E /* AstronomyPictureOfTheDay.swift */,
+				7406C26E232290B800B31D7E /* ItemsListModel.swift */,
+				7406C27423229EDB00B31D7E /* ItemsListTransformer.swift */,
+				742DDCEF2322A3AA0065C060 /* ListRepository.swift */,
+				7406C2722322942600B31D7E /* NibLoadable.swift */,
 				74713FF923228601004B12DB /* Main.storyboard */,
 				74713FFC23228603004B12DB /* Assets.xcassets */,
 				74713FFE23228603004B12DB /* LaunchScreen.storyboard */,
@@ -394,8 +417,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74713FF823228601004B12DB /* ViewController.swift in Sources */,
+				7406C26F232290B800B31D7E /* ItemsListModel.swift in Sources */,
+				74713FF823228601004B12DB /* ListViewController.swift in Sources */,
+				7406C2732322942600B31D7E /* NibLoadable.swift in Sources */,
+				7406C2712322926E00B31D7E /* AppRouter.swift in Sources */,
 				74713FF623228601004B12DB /* AppDelegate.swift in Sources */,
+				7406C27523229EDB00B31D7E /* ItemsListTransformer.swift in Sources */,
+				7406C27723229FB800B31D7E /* AstronomyPictureOfTheDay.swift in Sources */,
+				742DDCF02322A3AA0065C060 /* ListRepository.swift in Sources */,
+				742DDCEE232289750065C060 /* DataFetcher.swift in Sources */,
+				7406C26D23228A6200B31D7E /* RequestBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
