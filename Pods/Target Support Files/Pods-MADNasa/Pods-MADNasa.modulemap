@@ -1,0 +1,6 @@
+framework module Pods_MADNasa {
+  umbrella header "Pods-MADNasa-umbrella.h"
+
+  export *
+  module * { export * }
+}

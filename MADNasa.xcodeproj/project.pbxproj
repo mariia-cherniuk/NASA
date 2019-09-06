@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B1E6AB8794BA270177EADE9 /* Pods_MADNasa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAA9D80DEF1FB84BA2A491C /* Pods_MADNasa.framework */; };
+		74713FF623228601004B12DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74713FF523228601004B12DB /* AppDelegate.swift */; };
+		74713FF823228601004B12DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74713FF723228601004B12DB /* ViewController.swift */; };
+		74713FFB23228601004B12DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74713FF923228601004B12DB /* Main.storyboard */; };
+		74713FFD23228603004B12DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74713FFC23228603004B12DB /* Assets.xcassets */; };
+		7471400023228603004B12DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74713FFE23228603004B12DB /* LaunchScreen.storyboard */; };
+		7471400B23228603004B12DB /* MADNasaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471400A23228603004B12DB /* MADNasaTests.swift */; };
+		7471401623228603004B12DB /* MADNasaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471401523228603004B12DB /* MADNasaUITests.swift */; };
+		80FC2FB83B067083BF5656FC /* Pods_MADNasaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DF36F161D5D79970991160 /* Pods_MADNasaUITests.framework */; };
+		E4457FE500944CC850D861DB /* Pods_MADNasaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79034F444B2E22A5D16AF49 /* Pods_MADNasaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7471400723228603004B12DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74713FEA23228601004B12DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74713FF123228601004B12DB;
+			remoteInfo = MADNasa;
+		};
+		7471401223228603004B12DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74713FEA23228601004B12DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74713FF123228601004B12DB;
+			remoteInfo = MADNasa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32F69D004DD3F9B33DD0998B /* Pods-MADNasaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MADNasaTests.debug.xcconfig"; path = "Target Support Files/Pods-MADNasaTests/Pods-MADNasaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51AABAD33699055F6CC68D01 /* Pods-MADNasaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MADNasaUITests.release.xcconfig"; path = "Target Support Files/Pods-MADNasaUITests/Pods-MADNasaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5BAA9D80DEF1FB84BA2A491C /* Pods_MADNasa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MADNasa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69BD98D63B2679466E8FA514 /* Pods-MADNasa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MADNasa.release.xcconfig"; path = "Target Support Files/Pods-MADNasa/Pods-MADNasa.release.xcconfig"; sourceTree = "<group>"; };
+		74713FF223228601004B12DB /* MADNasa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MADNasa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74713FF523228601004B12DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74713FF723228601004B12DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74713FFA23228601004B12DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74713FFC23228603004B12DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74713FFF23228603004B12DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7471400123228603004B12DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7471400623228603004B12DB /* MADNasaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MADNasaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7471400A23228603004B12DB /* MADNasaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADNasaTests.swift; sourceTree = "<group>"; };
+		7471400C23228603004B12DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7471401123228603004B12DB /* MADNasaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MADNasaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7471401523228603004B12DB /* MADNasaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADNasaUITests.swift; sourceTree = "<group>"; };
+		7471401723228603004B12DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78DF36F161D5D79970991160 /* Pods_MADNasaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MADNasaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B9519A6BF13793E7E7C44AD /* Pods-MADNasa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MADNasa.debug.xcconfig"; path = "Target Support Files/Pods-MADNasa/Pods-MADNasa.debug.xcconfig"; sourceTree = "<group>"; };
+		A0560EEAFE216A78EBD60413 /* Pods-MADNasaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MADNasaUITests.debug.xcconfig"; path = "Target Support Files/Pods-MADNasaUITests/Pods-MADNasaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A38C1C02ECA698BC41E7297F /* Pods-MADNasaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MADNasaTests.release.xcconfig"; path = "Target Support Files/Pods-MADNasaTests/Pods-MADNasaTests.release.xcconfig"; sourceTree = "<group>"; };
+		B79034F444B2E22A5D16AF49 /* Pods_MADNasaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MADNasaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74713FEF23228601004B12DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1E6AB8794BA270177EADE9 /* Pods_MADNasa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7471400323228603004B12DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4457FE500944CC850D861DB /* Pods_MADNasaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7471400E23228603004B12DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FC2FB83B067083BF5656FC /* Pods_MADNasaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F1413A12ECB95380F2430EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B9519A6BF13793E7E7C44AD /* Pods-MADNasa.debug.xcconfig */,
+				69BD98D63B2679466E8FA514 /* Pods-MADNasa.release.xcconfig */,
+				32F69D004DD3F9B33DD0998B /* Pods-MADNasaTests.debug.xcconfig */,
+				A38C1C02ECA698BC41E7297F /* Pods-MADNasaTests.release.xcconfig */,
+				A0560EEAFE216A78EBD60413 /* Pods-MADNasaUITests.debug.xcconfig */,
+				51AABAD33699055F6CC68D01 /* Pods-MADNasaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		74713FE923228601004B12DB = {
+			isa = PBXGroup;
+			children = (
+				74713FF423228601004B12DB /* MADNasa */,
+				7471400923228603004B12DB /* MADNasaTests */,
+				7471401423228603004B12DB /* MADNasaUITests */,
+				74713FF323228601004B12DB /* Products */,
+				5F1413A12ECB95380F2430EB /* Pods */,
+				E5550BF5DA2F5672238A5C12 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74713FF323228601004B12DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74713FF223228601004B12DB /* MADNasa.app */,
+				7471400623228603004B12DB /* MADNasaTests.xctest */,
+				7471401123228603004B12DB /* MADNasaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74713FF423228601004B12DB /* MADNasa */ = {
+			isa = PBXGroup;
+			children = (
+				74713FF523228601004B12DB /* AppDelegate.swift */,
+				74713FF723228601004B12DB /* ViewController.swift */,
+				74713FF923228601004B12DB /* Main.storyboard */,
+				74713FFC23228603004B12DB /* Assets.xcassets */,
+				74713FFE23228603004B12DB /* LaunchScreen.storyboard */,
+				7471400123228603004B12DB /* Info.plist */,
+			);
+			path = MADNasa;
+			sourceTree = "<group>";
+		};
+		7471400923228603004B12DB /* MADNasaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7471400A23228603004B12DB /* MADNasaTests.swift */,
+				7471400C23228603004B12DB /* Info.plist */,
+			);
+			path = MADNasaTests;
+			sourceTree = "<group>";
+		};
+		7471401423228603004B12DB /* MADNasaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7471401523228603004B12DB /* MADNasaUITests.swift */,
+				7471401723228603004B12DB /* Info.plist */,
+			);
+			path = MADNasaUITests;
+			sourceTree = "<group>";
+		};
+		E5550BF5DA2F5672238A5C12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BAA9D80DEF1FB84BA2A491C /* Pods_MADNasa.framework */,
+				B79034F444B2E22A5D16AF49 /* Pods_MADNasaTests.framework */,
+				78DF36F161D5D79970991160 /* Pods_MADNasaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74713FF123228601004B12DB /* MADNasa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7471401A23228603004B12DB /* Build configuration list for PBXNativeTarget "MADNasa" */;
+			buildPhases = (
+				4592C43F93FC75E4EBC437B1 /* [CP] Check Pods Manifest.lock */,
+				74713FEE23228601004B12DB /* Sources */,
+				74713FEF23228601004B12DB /* Frameworks */,
+				74713FF023228601004B12DB /* Resources */,
+				05B71793068B044CFE3DEAFF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MADNasa;
+			productName = MADNasa;
+			productReference = 74713FF223228601004B12DB /* MADNasa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7471400523228603004B12DB /* MADNasaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7471401D23228603004B12DB /* Build configuration list for PBXNativeTarget "MADNasaTests" */;
+			buildPhases = (
+				CDE614B7CE11CE43CC30C05D /* [CP] Check Pods Manifest.lock */,
+				7471400223228603004B12DB /* Sources */,
+				7471400323228603004B12DB /* Frameworks */,
+				7471400423228603004B12DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7471400823228603004B12DB /* PBXTargetDependency */,
+			);
+			name = MADNasaTests;
+			productName = MADNasaTests;
+			productReference = 7471400623228603004B12DB /* MADNasaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7471401023228603004B12DB /* MADNasaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7471402023228603004B12DB /* Build configuration list for PBXNativeTarget "MADNasaUITests" */;
+			buildPhases = (
+				292905E46817E908C2775A28 /* [CP] Check Pods Manifest.lock */,
+				7471400D23228603004B12DB /* Sources */,
+				7471400E23228603004B12DB /* Frameworks */,
+				7471400F23228603004B12DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7471401323228603004B12DB /* PBXTargetDependency */,
+			);
+			name = MADNasaUITests;
+			productName = MADNasaUITests;
+			productReference = 7471401123228603004B12DB /* MADNasaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74713FEA23228601004B12DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Mariia Cherniuk";
+				TargetAttributes = {
+					74713FF123228601004B12DB = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					7471400523228603004B12DB = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 74713FF123228601004B12DB;
+					};
+					7471401023228603004B12DB = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 74713FF123228601004B12DB;
+					};
+				};
+			};
+			buildConfigurationList = 74713FED23228601004B12DB /* Build configuration list for PBXProject "MADNasa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74713FE923228601004B12DB;
+			productRefGroup = 74713FF323228601004B12DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74713FF123228601004B12DB /* MADNasa */,
+				7471400523228603004B12DB /* MADNasaTests */,
+				7471401023228603004B12DB /* MADNasaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74713FF023228601004B12DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7471400023228603004B12DB /* LaunchScreen.storyboard in Resources */,
+				74713FFD23228603004B12DB /* Assets.xcassets in Resources */,
+				74713FFB23228601004B12DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7471400423228603004B12DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7471400F23228603004B12DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05B71793068B044CFE3DEAFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MADNasa/Pods-MADNasa-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MADNasa/Pods-MADNasa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		292905E46817E908C2775A28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MADNasaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4592C43F93FC75E4EBC437B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MADNasa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDE614B7CE11CE43CC30C05D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MADNasaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74713FEE23228601004B12DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74713FF823228601004B12DB /* ViewController.swift in Sources */,
+				74713FF623228601004B12DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7471400223228603004B12DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7471400B23228603004B12DB /* MADNasaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7471400D23228603004B12DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7471401623228603004B12DB /* MADNasaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7471400823228603004B12DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74713FF123228601004B12DB /* MADNasa */;
+			targetProxy = 7471400723228603004B12DB /* PBXContainerItemProxy */;
+		};
+		7471401323228603004B12DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74713FF123228601004B12DB /* MADNasa */;
+			targetProxy = 7471401223228603004B12DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74713FF923228601004B12DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74713FFA23228601004B12DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74713FFE23228603004B12DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74713FFF23228603004B12DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7471401823228603004B12DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7471401923228603004B12DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7471401B23228603004B12DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B9519A6BF13793E7E7C44AD /* Pods-MADNasa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MADNasa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mariia-Cherniuk.MADNasa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7471401C23228603004B12DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69BD98D63B2679466E8FA514 /* Pods-MADNasa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MADNasa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mariia-Cherniuk.MADNasa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7471401E23228603004B12DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F69D004DD3F9B33DD0998B /* Pods-MADNasaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MADNasaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mariia-Cherniuk.MADNasaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MADNasa.app/MADNasa";
+			};
+			name = Debug;
+		};
+		7471401F23228603004B12DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38C1C02ECA698BC41E7297F /* Pods-MADNasaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MADNasaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mariia-Cherniuk.MADNasaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MADNasa.app/MADNasa";
+			};
+			name = Release;
+		};
+		7471402123228603004B12DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0560EEAFE216A78EBD60413 /* Pods-MADNasaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MADNasaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mariia-Cherniuk.MADNasaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MADNasa;
+			};
+			name = Debug;
+		};
+		7471402223228603004B12DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51AABAD33699055F6CC68D01 /* Pods-MADNasaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MADNasaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mariia-Cherniuk.MADNasaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MADNasa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74713FED23228601004B12DB /* Build configuration list for PBXProject "MADNasa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7471401823228603004B12DB /* Debug */,
+				7471401923228603004B12DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7471401A23228603004B12DB /* Build configuration list for PBXNativeTarget "MADNasa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7471401B23228603004B12DB /* Debug */,
+				7471401C23228603004B12DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7471401D23228603004B12DB /* Build configuration list for PBXNativeTarget "MADNasaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7471401E23228603004B12DB /* Debug */,
+				7471401F23228603004B12DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7471402023228603004B12DB /* Build configuration list for PBXNativeTarget "MADNasaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7471402123228603004B12DB /* Debug */,
+				7471402223228603004B12DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74713FEA23228601004B12DB /* Project object */;
+}
