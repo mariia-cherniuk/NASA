@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import RxSwift
 
 protocol ListRepository {
     associatedtype T
@@ -15,26 +16,25 @@ protocol ListRepository {
 }
 
 final class RemoteListRepository<T: Decodable>: ListRepository {
-    let fetcher: DataFetching
+    private let bag = DisposeBag()
+    private let fetcher: DataFetching
     
     init(fetcher: DataFetching) {
         self.fetcher = fetcher
     }
     
     func fetch(request: RequestBuilding, completion: @escaping (Result<T>) -> Void) {
-        fetcher.loadData(urlRequest: request) { (result) in
-            switch result {
-            case .failure(let error):
-                completion(Result.failure(error))
-            case .success(let data):
-                let result = Result(closure: { () -> T in
-                    let decoder = JSONDecoder()
-                    decoder.keyDecodingStrategy = .convertFromSnakeCase
-                    return try decoder.decode(T.self, from: data)
-                })
-                
-                completion(result)
-            }
-        }
+        let observable = fetcher.loadData(urlRequest: request)
+        
+        observable.subscribe(onNext: { (data) in
+            let result = Result(closure: { () -> T in
+                let decoder = JSONDecoder()
+                decoder.keyDecodingStrategy = .convertFromSnakeCase
+                return try decoder.decode(T.self, from: data)
+            })
+            completion(result)
+        }, onError: { (error) in
+            completion(Result.failure(error))
+        }).disposed(by: bag)
     }
 }

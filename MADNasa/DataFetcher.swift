@@ -7,9 +7,10 @@
 //
 
 import Foundation
+import RxSwift
 
 protocol DataFetching {
-    func loadData(urlRequest: RequestBuilding, completion: @escaping (Result<Data>) -> Void)
+    func loadData(urlRequest: RequestBuilding) -> Observable<Data>
 }
 
 class DataFetcher: DataFetching {
@@ -19,16 +20,25 @@ class DataFetcher: DataFetching {
         self.urlSession = urlSession
     }
     
-    func loadData(urlRequest: RequestBuilding, completion: @escaping (Result<Data>) -> Void) {
-        urlSession.dataTask(with: urlRequest.request()) { (data, _, error) in
-            if let data = data {
-                completion(.success(data))
-            } else if let error = error {
-                completion(.failure(error))
-            } else {
-                completion(.failure(LoadingError.unknown))
+    func loadData(urlRequest: RequestBuilding) -> Observable<Data> {
+        return Observable.create { (observer) -> Disposable in
+            
+            let task = self.urlSession.dataTask(with: urlRequest.request()) { (data, _, error) in
+                if let data = data {
+                    observer.on(.next(data))
+                    observer.on(.completed)
+                } else if let error = error {
+                    observer.on(.error(error))
+                } else {
+                    observer.on(.error(LoadingError.unknown))
+                }
             }
-        }.resume()
+            task.resume()
+            
+            return Disposables.create {
+                task.cancel()
+            }
+        }
     }
 }
 
